@@ -67,7 +67,7 @@
     "mocha": "^10.2.0",
     "mocha-spec-reporter-with-file-names": "npm:@dword-design/mocha-spec-reporter-with-file-names@^0",
     "mocha-ui-exports-auto-describe": "^3.0.0",
-    "nyc": "^15.0.0",
+    "nyc": "^17.0.0",
     "output-files": "^2.0.0",
     "package-name-regex": "^4.0.0",
     "parse-git-config": "^3.0.0",
