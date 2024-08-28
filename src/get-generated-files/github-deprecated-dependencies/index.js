@@ -36,7 +36,7 @@ export default {
               '${{ steps.create-deprecation-issue.outputs.number }}',
           },
         },
-        { uses: gitHubAction`gautamkrishnar/keepalive-workflow@v1` },
+        { uses: gitHubAction`gautamkrishnar/keepalive-workflow@v2` },
       ],
     },
   },

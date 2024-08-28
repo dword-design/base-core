@@ -17,7 +17,7 @@ export default function () {
               githubToken: '${{ secrets.GITHUB_TOKEN }}',
             },
           },
-          { uses: gitHubAction`gautamkrishnar/keepalive-workflow@v1` },
+          { uses: gitHubAction`gautamkrishnar/keepalive-workflow@v2` },
         ],
       },
     },
