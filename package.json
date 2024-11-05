@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/config-conventional": "^19.0.0",
     "@dword-design/babel-config": "^4.0.0",
     "@dword-design/base-config-node": "^3.0.0",
     "@dword-design/ci": "^4.0.0",
