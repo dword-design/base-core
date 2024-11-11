@@ -24,7 +24,7 @@
     "test": "rimraf dist && babel --config-file @dword-design/babel-config --copy-files --no-copy-ignored --out-dir dist --ignore \"**/*.spec.js\" src && node dist/cli.js test"
   },
   "dependencies": {
-    "@commitlint/cli": "^18.4.4",
+    "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^18.4.4",
     "@dword-design/babel-config": "^4.0.0",
     "@dword-design/base-config-node": "^3.0.0",
