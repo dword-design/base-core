@@ -23,7 +23,7 @@ export default tester(
       await execaCommand('git init');
       await execaCommand('git config user.email "foo@bar.de"');
       await execaCommand('git config user.name "foo"');
-      await fs.outputFile('index.js', 'gitHubAction`actions/checkout@v3`');
+      await fs.outputFile('index.js', 'gitHubAction`actions/checkout@v4`');
       const base = new Base();
       await base.prepare();
       await execaCommand('git add .');
