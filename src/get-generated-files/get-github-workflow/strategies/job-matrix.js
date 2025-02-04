@@ -31,10 +31,7 @@ export default config => ({
       { run: 'corepack enable' },
       { run: 'git config --global user.email "actions@github.com"' },
       { run: 'git config --global user.name "GitHub Actions"' },
-      {
-        env: { COREPACK_INTEGRITY_KEYS: 0 },
-        run: 'pnpm install --frozen-lockfile',
-      },
+      { run: 'pnpm install --frozen-lockfile' },
       ...checkUnknownFilesSteps,
       { run: 'pnpm lint' },
       ...getReleaseSteps(config),
@@ -53,10 +50,7 @@ export default config => ({
         with: { 'check-latest': true, 'node-version': '${{ matrix.node }}' },
       },
       { run: 'corepack enable' },
-      {
-        env: { COREPACK_INTEGRITY_KEYS: 0 },
-        run: 'pnpm install --frozen-lockfile',
-      },
+      { run: 'pnpm install --frozen-lockfile' },
       ...getTestSteps(),
       ...(coverageSteps
         |> map(step => ({

@@ -23,7 +23,7 @@ export default function () {
           git config --global user.name "${personalData.name}"
           git config diff.lfs.textconv cat
           git lfs pull
-          COREPACK_INTEGRITY_KEYS=0 pnpm install --frozen-lockfile
+          pnpm install --frozen-lockfile
         `,
       },
     ],

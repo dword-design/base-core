@@ -6,6 +6,6 @@ Object {
     "ghcr.io/devcontainers/features/docker-in-docker:2": Object {},
   },
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18",
-  "updateContentCommand": "COREPACK_INTEGRITY_KEYS=0 pnpm install --frozen-lockfile",
+  "updateContentCommand": "pnpm install --frozen-lockfile",
 }
 `;
